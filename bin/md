@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+var path = require('path');
+var fs = require('fs');
+var lib = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
+var MediaStats = require(lib + '/media.js');
+var ms = new MediaStats(process.argv[2]);
+ms.once('ready', function() {
+  console.log(ms.info);
+});

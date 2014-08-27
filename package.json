@@ -1,0 +1,19 @@
+{
+  "author": "Stephen Gray",
+  "name": "cider",
+  "description": "Command line tool to play movies on the Apple TV",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgray10/cider.git"
+  },
+  "dependencies": {
+    "cli-table": "~0.3.0",
+    "commander": "~2.3.0",
+    "mdns": "~2.2.0",
+    "node-ffprobe": "1.2.2",
+    "plist": "1.0.1",
+    "progress":"1.1.8"
+  }
+}
