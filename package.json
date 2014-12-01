@@ -8,6 +8,10 @@
     "type": "git",
     "url": "git+https://github.com/sgray10/atv.git"
   },
+  "scripts": {
+    "install": "cd src/segmenter && ./build.sh && mv segmenter ../../bin",
+    "uninstall": "rm -f lib/segmenter"
+  },
   "dependencies": {
     "cli-table": "~0.3.0",
     "commander": "~2.3.0",
