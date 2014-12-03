@@ -1,8 +1,8 @@
 {
   "author": "Stephen Gray",
-  "name": "atv",
-  "description": "Command line tool to play movies on the Apple TV",
-  "version": "0.0.1",
+  "name": "node-appletv",
+  "description": "Command line tool to transcode movies on the fly and play to the Apple TV",
+  "version": "0.1.0",
   "bin": {
       "atv": "./bin/atv",
       "md": "./bin/md"
@@ -10,7 +10,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sgray10/atv.git"
+    "url": "git+https://github.com/sgray10/node-appletv.git"
   },
   "scripts": {
     "preinstall": "scripts/install.sh",
