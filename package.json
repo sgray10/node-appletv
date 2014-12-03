@@ -3,6 +3,10 @@
   "name": "atv",
   "description": "Command line tool to play movies on the Apple TV",
   "version": "0.0.1",
+  "bin": {
+      "atv": "./bin/atv",
+      "md": "./bin/md"
+  },
   "private": true,
   "repository": {
     "type": "git",
